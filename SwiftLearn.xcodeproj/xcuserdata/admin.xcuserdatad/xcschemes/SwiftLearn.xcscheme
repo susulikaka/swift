@@ -37,6 +37,14 @@
                BlueprintName = "SwiftLearnTests"
                ReferencedContainer = "container:SwiftLearn.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "SwiftLearnTests/testExample()">
+               </Test>
+               <Test
+                  Identifier = "SwiftLearnTests/testPerformanceExample()">
+               </Test>
+            </SkippedTests>
          </TestableReference>
          <TestableReference
             skipped = "NO">

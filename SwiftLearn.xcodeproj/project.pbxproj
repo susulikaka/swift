@@ -14,6 +14,12 @@
 		846A72C11D83E16E00C28B9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846A72BF1D83E16E00C28B9B /* LaunchScreen.storyboard */; };
 		846A72CC1D83E16E00C28B9B /* SwiftLearnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A72CB1D83E16E00C28B9B /* SwiftLearnTests.swift */; };
 		846A72D71D83E16E00C28B9B /* SwiftLearnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A72D61D83E16E00C28B9B /* SwiftLearnUITests.swift */; };
+		846A72E51D83F04C00C28B9B /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A72E41D83F04C00C28B9B /* RatingControl.swift */; };
+		846A72E91D84049100C28B9B /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A72E81D84049100C28B9B /* Meal.swift */; };
+		846A72EC1D84148600C28B9B /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A72EA1D84148600C28B9B /* MealTableViewCell.swift */; };
+		846A72ED1D84148700C28B9B /* MealTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846A72EB1D84148600C28B9B /* MealTableViewCell.xib */; };
+		846A72F01D8422B500C28B9B /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846A72EE1D8422B500C28B9B /* MealTableViewController.swift */; };
+		846A72F11D8422B500C28B9B /* MealTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846A72EF1D8422B500C28B9B /* MealTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		846A72D21D83E16E00C28B9B /* SwiftLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		846A72D61D83E16E00C28B9B /* SwiftLearnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLearnUITests.swift; sourceTree = "<group>"; };
 		846A72D81D83E16E00C28B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846A72E41D83F04C00C28B9B /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		846A72E81D84049100C28B9B /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		846A72EA1D84148600C28B9B /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		846A72EB1D84148600C28B9B /* MealTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MealTableViewCell.xib; sourceTree = "<group>"; };
+		846A72EE1D8422B500C28B9B /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		846A72EF1D8422B500C28B9B /* MealTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MealTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +111,13 @@
 			children = (
 				846A72B61D83E16E00C28B9B /* AppDelegate.swift */,
 				846A72B81D83E16E00C28B9B /* ViewController.swift */,
+				846A72E81D84049100C28B9B /* Meal.swift */,
+				846A72E41D83F04C00C28B9B /* RatingControl.swift */,
+				846A72EE1D8422B500C28B9B /* MealTableViewController.swift */,
+				846A72EF1D8422B500C28B9B /* MealTableViewController.xib */,
 				846A72BA1D83E16E00C28B9B /* Main.storyboard */,
+				846A72EA1D84148600C28B9B /* MealTableViewCell.swift */,
+				846A72EB1D84148600C28B9B /* MealTableViewCell.xib */,
 				846A72BD1D83E16E00C28B9B /* Assets.xcassets */,
 				846A72BF1D83E16E00C28B9B /* LaunchScreen.storyboard */,
 				846A72C21D83E16E00C28B9B /* Info.plist */,
@@ -229,9 +247,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846A72ED1D84148700C28B9B /* MealTableViewCell.xib in Resources */,
 				846A72C11D83E16E00C28B9B /* LaunchScreen.storyboard in Resources */,
 				846A72BE1D83E16E00C28B9B /* Assets.xcassets in Resources */,
 				846A72BC1D83E16E00C28B9B /* Main.storyboard in Resources */,
+				846A72F11D8422B500C28B9B /* MealTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846A72E91D84049100C28B9B /* Meal.swift in Sources */,
 				846A72B91D83E16E00C28B9B /* ViewController.swift in Sources */,
+				846A72E51D83F04C00C28B9B /* RatingControl.swift in Sources */,
 				846A72B71D83E16E00C28B9B /* AppDelegate.swift in Sources */,
+				846A72F01D8422B500C28B9B /* MealTableViewController.swift in Sources */,
+				846A72EC1D84148600C28B9B /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftLearn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = susu.SwiftLearn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftLearn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = susu.SwiftLearn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +510,7 @@
 				846A72DD1D83E16E00C28B9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		846A72DE1D83E16E00C28B9B /* Build configuration list for PBXNativeTarget "SwiftLearnTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +519,7 @@
 				846A72E01D83E16E00C28B9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		846A72E11D83E16E00C28B9B /* Build configuration list for PBXNativeTarget "SwiftLearnUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +528,7 @@
 				846A72E31D83E16E00C28B9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
